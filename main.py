@@ -1,17 +1,4 @@
-# Importações
-import pygame as pg
+import code.game
 
-# Inicia o pygame
-print('Setup Start')
-pg.init()
-window = pg.display.set_mode(size=(600, 480))
-
-while True:
-    #Check for all events
-    for event in pg.event.get():
-        if event.type == pg.QUIT:
-            print('Quitting game')
-            pg.quit() # Close window
-            quit() #End pygame
-
-
+game = game()
+game.run()
