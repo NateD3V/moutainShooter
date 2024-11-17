@@ -4,7 +4,6 @@ import pygame as pg
 # Inicia o pygame
 print('Setup Start')
 pg.init()
-
 window = pg.display.set_mode(size=(600, 480))
 
 while True:
@@ -14,4 +13,5 @@ while True:
             print('Quitting game')
             pg.quit() # Close window
             quit() #End pygame
+
 
