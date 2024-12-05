@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1696c68-9744-4806-8979-42506f1ff353" name="Changes" comment="created players and enemies shots">
+    <list default="true" id="f1696c68-9744-4806-8979-42506f1ff353" name="Changes" comment="rebase with feature_level">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +23,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="feature_level" />
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Nathan &lt;adm.nate@hotmail.com&gt;" />
         <option value="adm.nate@hotmail.com" />
       </list>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
@@ -60,18 +57,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admna/PycharmProjects/LinguagemProgramação/AulaAva&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.python&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Game.executor": "Run",
+    "Python.GameRun.executor": "Run",
+    "Python.game.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.menu.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/admna/PycharmProjects/LinguagemProgramação/mountainShooter_uninter/main.py",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.python"
   }
-}</component>
+}]]></component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySaveCallSignatures" value="true" />
   </component>
@@ -81,7 +79,7 @@
       <recent name="C:\Users\admna\PycharmProjects\LinguagemProgramação\mountainShooter_uninter\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.GameRun">
     <configuration name="Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mountainShooter_uninter" />
       <option name="ENV_FILES" value="" />
@@ -104,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="GameRun" type="PythonConfigurationType" factoryName="Python">
       <module name="mountainShooter_uninter" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +148,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.GameRun" />
       <item itemvalue="Python.Game" />
       <item itemvalue="Python.menu" />
     </list>
@@ -201,55 +199,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731884293209</updated>
     </task>
-    <task id="LOCAL-00004" summary="created the menu: background; sound and font; const file">
-      <option name="closed" value="true" />
-      <created>1732144063369</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1732144063369</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added level 1 parallax function, created menu interaction, Abstract class, factory">
-      <option name="closed" value="true" />
-      <created>1732654884690</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1732654884690</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fixed some bugs">
-      <option name="closed" value="true" />
-      <created>1732923194868</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1732923194868</updated>
-    </task>
-    <task id="LOCAL-00007" summary="created players, enemies and made them move">
-      <option name="closed" value="true" />
-      <created>1732932059495</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1732932059495</updated>
-    </task>
-    <task id="LOCAL-00008" summary="created mediator pattern, fixed some bugs, enemies destruction">
-      <option name="closed" value="true" />
-      <created>1733003859323</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1733003859323</updated>
-    </task>
-    <task id="LOCAL-00009" summary="created players and enemies shots">
-      <option name="closed" value="true" />
-      <created>1733009501869</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1733009501869</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,23 +224,6 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added classes" />
     <MESSAGE value="created main loop&#10;connect menu and game classes" />
-    <MESSAGE value="created the menu: background; sound and font; const file" />
-    <MESSAGE value="added level 1 parallax function, created menu interaction, Abstract class, factory" />
-    <MESSAGE value="fixed some bugs" />
-    <MESSAGE value="created players, enemies and made them move" />
-    <MESSAGE value="created mediator pattern, fixed some bugs, enemies destruction" />
-    <MESSAGE value="created players and enemies shots" />
-    <option name="LAST_COMMIT_MESSAGE" value="created players and enemies shots" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code/level.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="created main loop&#10;connect menu and game classes" />
   </component>
 </project>
