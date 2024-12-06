@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1696c68-9744-4806-8979-42506f1ff353" name="Changes" comment="added level2, code updated" />
+    <list default="true" id="f1696c68-9744-4806-8979-42506f1ff353" name="Changes" comment="implemented sqlite3 database for score, proxy design" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="feature_level" />
+    <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -26,6 +26,11 @@
         <option value="Nathan &lt;adm.nate@hotmail.com&gt;" />
         <option value="adm.nate@hotmail.com" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
@@ -59,7 +64,7 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.menu.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;level3__development&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/admna/PycharmProjects/LinguagemProgramação/mountainShooter_uninter/main.py&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.python&quot;
   }
@@ -69,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admna\PycharmProjects\LinguagemProgramação\mountainShooter_uninter\asset" />
       <recent name="C:\Users\admna\PycharmProjects\LinguagemProgramação\mountainShooter_uninter" />
       <recent name="C:\Users\admna\PycharmProjects\LinguagemProgramação\mountainShooter_uninter\code" />
     </key>
@@ -148,8 +154,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.menu" />
         <item itemvalue="Python.Game" />
         <item itemvalue="Python.menu" />
+        <item itemvalue="Python.Game" />
+        <item itemvalue="Python.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733417589087</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented sqlite3 database for score, proxy design">
+      <option name="closed" value="true" />
+      <created>1733435992360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733435992360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +244,7 @@
     <MESSAGE value="added classes" />
     <MESSAGE value="created main loop&#10;connect menu and game classes" />
     <MESSAGE value="added level2, code updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="added level2, code updated" />
+    <MESSAGE value="implemented sqlite3 database for score, proxy design" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented sqlite3 database for score, proxy design" />
   </component>
 </project>

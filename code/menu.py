@@ -23,6 +23,10 @@ class Menu:
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
+            self.menu_text(18, "Nathan Thummel Ru: 4290084", C_ORANGE, (480, 15))
+            self.menu_text(18, "Gabriel Sanguinetti Ru: 4280274", C_ORANGE, (480, 35))
+            self.menu_text(18, "Ana Beatriz Ru: 4273207", C_ORANGE, (480, 55 ))
+            self.menu_text(18, "Cecília Turcatto Ru: 4317106", C_ORANGE, (480, 75))
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
                     self.menu_text(20, MENU_OPTION[i], C_YELLOW, ((WIN_WIDTH / 2), 200 + 25 * i))
