@@ -25,13 +25,22 @@ class Score:
         name = ''
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
+            # Transparent surface for better visualization
+            rect_width = 400
+            rect_height = 300
+            transparent_surface = pygame.Surface((rect_width, rect_height), pygame.SRCALPHA)
+            transparent_surface.fill((50, 50, 50, 150))  # Cor com transparência ajustada #
+            # rect center
+            rect_x = (self.window.get_width() - rect_width) // 2
+            rect_y = (self.window.get_height() - rect_height) // 2  # Blit a superfície transparente na janela principal
+            self.window.blit(transparent_surface, (rect_x, rect_y))
             self.score_text(48, 'Você ganhou!', C_YELLOW, SCORE_POS['Title'])
             if game_mode == MENU_OPTION[0]:
                 score = player_score[0]
                 text = 'Player 1 digite seu nome (4 caracteres):'
             if game_mode == MENU_OPTION[1]:
                 score = (player_score[0] + player_score[1]) / 2
-                text = 'digite o nome do time(4 caracteres):'
+                text = 'digite o nome do time (4 caracteres):'
             if game_mode == MENU_OPTION[2]:
                 if player_score[0] >= player_score[1]:
                     score = max(player_score)
@@ -62,15 +71,26 @@ class Score:
         pygame.mixer_music.load('./asset/Score.mp3')
         pygame.mixer_music.play(-1)
         self.window.blit(source=self.surf, dest=self.rect)
+
+        # Transparent surface for better visualization
+        rect_width = 400
+        rect_height = 300
+        transparent_surface = pygame.Surface((rect_width, rect_height), pygame.SRCALPHA)
+        transparent_surface.fill((50, 50, 50, 150)) # Cor com transparência ajustada #
+        # rect center
+        rect_x = (self.window.get_width() - rect_width) // 2
+        rect_y = (self.window.get_height() - rect_height) // 2 # Blit a superfície transparente na janela principal
+        self.window.blit(transparent_surface, (rect_x, rect_y))
+
         self.score_text(48, 'TOP 10 SCORE', C_YELLOW, SCORE_POS['Title'])
-        self.score_text(20, 'NAME     SCORE           DATE      ', C_YELLOW, SCORE_POS['Label'])
+        self.score_text(25, 'NAME     SCORE           DATE      ', C_YELLOW, SCORE_POS['Label'])
         db_proxy = DBProxy('DBScore')
         list_score = db_proxy.retrieve_top10()
         db_proxy.close()
 
         for player_score in list_score:
             id_,name, score, date = player_score
-            self.score_text(20, f'{name}     {score:05d}     {date}', C_YELLOW,
+            self.score_text(22, f'{name}     {score:05d}     {date}', C_YELLOW,
                             SCORE_POS[list_score.index(player_score)])
 
         while True:
