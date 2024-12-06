@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1696c68-9744-4806-8979-42506f1ff353" name="Changes" comment="implemented sqlite3 database for score, proxy design">
-      <change afterPath="$PROJECT_DIR$/asset/Enemy3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Enemy3Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level3Bg4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Enemy1Shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Enemy1Shot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Enemy2Shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Enemy2Shot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Player1Shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Player1Shot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/Player2Shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Player2Shot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Score.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
-    </list>
+    <list default="true" id="f1696c68-9744-4806-8979-42506f1ff353" name="Changes" comment="implemented sqlite3 database for score, proxy design" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="feature_level" />
+    <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -78,19 +56,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Game.executor": "Run",
-    "Python.GameRun.executor": "Run",
-    "Python.game.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.menu.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "level3__development",
-    "last_opened_file_path": "C:/Users/admna/PycharmProjects/LinguagemProgramação/mountainShooter_uninter/main.py",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GameRun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;level3__development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admna/PycharmProjects/LinguagemProgramação/mountainShooter_uninter/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.python&quot;
   }
-}]]></component>
+}</component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySaveCallSignatures" value="true" />
   </component>
@@ -176,8 +154,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.menu" />
         <item itemvalue="Python.Game" />
         <item itemvalue="Python.menu" />
+        <item itemvalue="Python.Game" />
+        <item itemvalue="Python.Game" />
       </list>
     </recent_temporary>
   </component>
